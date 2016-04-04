@@ -6,8 +6,10 @@ To run this project:
 
 1) set up local offline GIT repo (https://goo.gl/jJW634)
 
-2) change GitWatch.sh to point to your local repo
+2) edit GitWatch.sh to point to your local repo
 
-3) run GitWatch.sh. e.g ./GitWatch.sh > deployments.log &
+3) chmod +x GitWatch.sh 
 
-4) tail -f deployments.log
+4) run GitWatch.sh. e.g ./GitWatch.sh > deployments.log &
+
+5) tail -f deployments.log
