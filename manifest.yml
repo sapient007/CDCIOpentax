@@ -1,0 +1,8 @@
+---
+applications:
+- name: TaxmanCDCI
+  memory: 1G
+  instances: 1
+  host: TaxmanCDCI
+  buildpack: java_buildpack
+  path: target/hello-cloud-foundry.war
